@@ -17,7 +17,7 @@ export class ListadoProductosComponent {
   descripcionInput: string = '';
   precioInput: number | null = null;
 
-  Precios: string[] = ['50', '100', '200', '200'];
+  Precios: string[] = ['50', '100', '2   0', '200'];
 
   agregarProducto(): void {
     if (this.descripcionInput.trim() === '' || this.precioInput === null || this.precioInput <= 0) {
